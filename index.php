@@ -41,7 +41,7 @@
     <!-- ======= Header ======= -->
     <header id="header" class="header-tops">
         <div class="container">
-            <h1><a href="index.html">Aleksandar Trifunovic</a></h1>
+            <h1><a href="index.php">Aleksandar Trifunovic</a></h1>
             <h2>I'm a hard working and passionate <span>software developer</span> from Banja Luka</h2>
 
             <!-- Navigation -->
@@ -563,7 +563,7 @@
               </div>
             </div>
           </div>
-    
+    <!--
           <form action="forms/contact.php" method="post" role="form" class="php-email-form mt-4">
             <div class="form-row">
               <div class="col-md-6 form-group">
@@ -590,6 +590,7 @@
             </div>
             <div class="text-center"><button type="submit">Send Message</button></div>
           </form>
+-->
     
         </div>
       </section><!-- End Contact Section -->

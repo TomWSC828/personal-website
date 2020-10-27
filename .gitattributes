@@ -1,3 +1,4 @@
-*.hh linguist-language=PHP
-*.hck linguist-language=PHP
-*.hack linguist-language=PHP
+* linguist-vendored
+*.js linguist-vendored=false
+*.php linguist-vendored=false
+*.html linguist-vendored=false

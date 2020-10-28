@@ -141,6 +141,11 @@ h1, h2, h3, h4, h5, h6 {
     }
   }
 
+  .header-logo {
+    width: 40px;
+    height: 40px;
+  }
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -442,11 +447,17 @@ section .container {
   top: -25px;
   left: 50%;
   transform: translateX(-50%);
-  font-size: 24px;
+  font-size: 30px;
   background: rgba(255, 255, 255, 0.1);
-  padding: 12px;
+  padding: 15px;
   color: #18d26e;
-  border-radius: 50px;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  transition: 0.3s;
 }
 
 .counts .count-box span {
@@ -621,6 +632,10 @@ section .container {
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
   color: #63eda3;
+}
+
+.portfolio .portfolio-wrap .portfolio-links i {
+  font-size: 24px;
 }
 
 .portfolio .portfolio-wrap:hover::before {
@@ -812,13 +827,16 @@ section .container {
   background: rgba(255, 255, 255, 0.08);
 }
 
-.contact .info-box i.bx {
+.contact .info-box i.fas,
+.contact .info-box i.far {
   font-size: 24px;
   color: #18d26e;
   border-radius: 50%;
   padding: 14px;
   float: left;
   background: rgba(255, 255, 255, 0.1);
+  width: 50px;
+  height: 50px;
 }
 
 .contact .info-box h3 {
@@ -832,7 +850,7 @@ section .container {
   padding: 0;
   color: #fff;
   line-height: 24px;
-  font-size: 14px;
+  font-size: 18px;
   margin: 0 0 0 68px;
 }
 
@@ -842,7 +860,7 @@ section .container {
 }
 
 .contact .info-box .social-links a {
-  font-size: 18px;
+  font-size: 26px;
   display: inline-block;
   color: #fff;
   line-height: 1;
@@ -850,7 +868,40 @@ section .container {
   transition: 0.3s;
 }
 
+.iconify.code-wars {
+  vertical-align: baseline;
+}
+
 .contact .info-box .social-links a:hover {
+  color: #18d26e;
+}
+
+.contact .info-box p a {
+  transition: 0.3s;
+  color: #fff;
+}
+
+.contact .info-box p a:hover {
+  color: #18d26e;
+}
+
+.contact .info-box i.fas,
+.contact .info-box i.far {
+  font-size: 26px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  line-height: 1;
+  margin-right: 8px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  transition: 0.3s;
+}
+
+.contact .info-box i:hover {
   color: #18d26e;
 }
 

@@ -47,26 +47,27 @@
             <div class="row">
     
               <div class="col-lg-8">
-                <h2 class="portfolio-title">This is an example of portfolio detail</h2>
-                <div class="owl-carousel portfolio-details-carousel">
-                  <img src="assets/img/portfolio/portfolio-details-1.jpg" class="img-fluid" alt="">
-                  <img src="assets/img/portfolio/portfolio-details-2.jpg" class="img-fluid" alt="">
-                  <img src="assets/img/portfolio/portfolio-details-3.jpg" class="img-fluid" alt="">
-                </div>
+                <h2 class="portfolio-title">Angular Todo Web Application</h2>
+                  <div class="img-container">
+                    <img src="assets/img/portfolio/angular-todo.png" class="img-fluid" alt="">
+                  </div>
               </div>
     
               <div class="col-lg-4 portfolio-info">
                 <h3>Project information</h3>
                 <ul>
-                  <li><strong>Category</strong>: Web design</li>
-                  <li><strong>Client</strong>: ASU Company</li>
-                  <li><strong>Project date</strong>: 01 March, 2020</li>
-                  <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
+                  <li><strong>Category</strong>: Front-End Application</li>
+                  <li><strong>Project URL</strong>: <a href="https://angular-todo-practice.firebaseapp.com/" target="_blank">Live Preview</a></li>
                 </ul>
     
-                <p>
-                  Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
-                </p>
+                <p>Technologies used:</p>
+                  <ul>
+                      <li><i class="fas fa-angle-right"></i> <strong>HTML</strong> </li>
+                      <li><i class="fas fa-angle-right"></i> <strong>CSS</strong> </li>
+                      <li><i class="fas fa-angle-right"></i> <strong>JavaScript</strong> </li>
+                      <li><i class="fas fa-angle-right"></i> <strong>Angular</strong> </li>
+                      <li><i class="fas fa-angle-right"></i> <strong>Firebase</strong> </li>
+                  </ul>
               </div>
     
             </div>

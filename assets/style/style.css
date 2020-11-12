@@ -7,6 +7,11 @@ body {
     margin: auto;
 }
 
+a, a:visited {
+    text-decoration: none;
+    color: #336699;
+}
+
 .tab {
     overflow: hidden;
     border: 1px solid #ccc;
@@ -40,4 +45,72 @@ body {
     padding: 6px 12px;
     border: 1px solid #ccc;
     border-top: none;
+}
+
+.header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    max-width: 660px;
+    margin: 0 auto;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    text-shadow: 1px 1px #ccc;
+}
+
+
+
+.profile-img {
+    margin-top: 12px;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+
+.header-right {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 10px auto 0 auto;
+    padding-left: 24px;
+}
+
+.header-name {
+    float: left;
+    margin-right: 50px;
+}
+
+.name {
+    font-size: 28px;
+    margin: 0;
+}
+
+.description {
+    margin-top: 10px;
+    border-top: solid 1px #666;
+    font-weight: bold;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.position {
+    font-size: 16pt;
+}
+
+.contact {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.contact a {
+    margin-bottom: 5px;
+}
+
+.contact a:last-child {
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 640px) {
+    .header-name {
+        text-align: center;
+    }
 }

@@ -48,17 +48,11 @@ a, a:visited {
 }
 
 .header {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
     max-width: 660px;
     margin: 0 auto;
-    padding-top: 14px;
-    padding-bottom: 14px;
+    padding: 14px 0 24px 0;
     text-shadow: 1px 1px #ccc;
 }
-
-
 
 .profile-img {
     margin-top: 12px;
@@ -68,15 +62,7 @@ a, a:visited {
 }
 
 .header-right {
-    display: flex;
-    flex-flow: row wrap;
-    margin: 10px auto 0 auto;
-    padding-left: 24px;
-}
-
-.header-name {
-    float: left;
-    margin-right: 50px;
+    margin: 10px auto 10px auto;
 }
 
 .name {
@@ -89,7 +75,6 @@ a, a:visited {
     border-top: solid 1px #666;
     font-weight: bold;
     padding-top: 8px;
-    padding-bottom: 8px;
 }
 
 .position {
@@ -107,10 +92,17 @@ a, a:visited {
 
 .contact a:last-child {
     margin-bottom: 0;
+    cursor: default
 }
 
 @media screen and (max-width: 640px) {
     .header-name {
         text-align: center;
     }
+}
+
+.container-flex {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
 }

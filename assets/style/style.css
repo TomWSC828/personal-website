@@ -113,7 +113,52 @@ a, a:visited {
     padding: 5px 0 5px 0;
 }
 
-.add a i {
+ a i {
     margin-right: 10px;
     font-size: 20px;
+}
+
+/* Projects section */
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.project {
+    flex: 0 0 30%;
+    margin: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, .3);
+}
+
+.project img {
+    max-width: 100%;
+}
+
+#work h2 {
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .project {
+        flex: 1 1 auto;
+        margin: 0 50px 50px 50px;
+    }
+}
+
+.project-description {
+    display: flex;
+    flex-flow: column wrap;
+    padding: 0 20px 20px;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.project-description a {
+    display: flex;
+    align-items: center;
 }

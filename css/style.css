@@ -380,7 +380,7 @@ Hero
   }
 
   .hero-photo {
-    max-width: 30rem;
+    max-width: 25rem;
     max-height: 30rem;
     object-fit: cover;
     border-radius: var(--radius);

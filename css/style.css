@@ -203,6 +203,15 @@ Navbar
   justify-self: end;
 }
 
+.navbar-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+  box-shadow: var(--light-shadow);
+}
+
 @media screen and (min-width: 768px) {
   .nav {
     background: var(--clr-primary-10);
@@ -256,10 +265,11 @@ Sidebar
   align-items: center;
   justify-content: center;
   transition: var(--transition);
-  /*add later*/
-  /*
-    transform: translateX(-100%);
-  */
+  transform: translateX(-100%);
+}
+
+.show-sidebar {
+  transform: translateX(0);
 }
 
 .sidebar-links {
@@ -312,4 +322,14 @@ Sidebar
 
 .close-btn:hover {
   color: #e66b6b;
+}
+
+/*
+================
+Hero 
+================
+*/
+.hero {
+  background: var(--clr-primary-5);
+  min-height: 150vh;
 }

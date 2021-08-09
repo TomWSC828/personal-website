@@ -330,6 +330,4 @@ Hero
 ================
 */
 .hero {
-  background: var(--clr-primary-5);
-  min-height: 150vh;
 }

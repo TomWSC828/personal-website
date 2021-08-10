@@ -454,7 +454,7 @@ Projects
 .projects-text {
   width: 85vw;
   max-width: 30rem;
-  margin-bottom: 0 auto;
+  margin: 0 auto;
 }
 
 .project {
@@ -511,4 +511,18 @@ Projects
 .project:hover::after {
   opacity: 1;
   transform: scale(0.8);
+}
+
+@media screen and (min-width: 676px) {
+  .projects-center {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .projects-center {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }

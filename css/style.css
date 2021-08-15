@@ -621,13 +621,16 @@ Skills
 @media screen and (min-width: 768px) {
   .skills-center {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     column-gap: 2rem;
   }
 }
 
 .skills {
   background: var(--clr-primary-9);
+}
+
+.skills-list {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   column-gap: 2rem;
@@ -636,6 +639,11 @@ Skills
 .skills h3 {
   margin: 1.5rem 0;
   color: var(--clr-primary-1);
+  text-align: center;
+}
+
+.skill i {
+  font-size: 2rem;
 }
 
 .skill p {

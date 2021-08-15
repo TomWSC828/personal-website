@@ -308,7 +308,7 @@ Sidebar
 .social-icons {
   display: grid;
   margin-top: 3rem;
-  width: 20rem;
+  width: 18rem;
   grid-template-columns: repeat(4, 1fr);
   justify-items: center;
 }
@@ -337,6 +337,12 @@ Sidebar
 
 .close-btn:hover {
   color: #e66b6b;
+}
+
+@media screen and (min-width: 350px) {
+  .social-icons {
+    width: 20rem;
+  }
 }
 
 /*
@@ -618,22 +624,13 @@ Skills
 ================
 */
 
-@media screen and (min-width: 768px) {
-  .skills-center {
-    display: grid;
-    grid-template-columns: 1fr;
-    column-gap: 2rem;
-  }
+.skills-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .skills {
-  background: var(--clr-primary-9);
-}
-
-.skills-list {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  column-gap: 2rem;
+  background: var(--clr-white);
 }
 
 .skills h3 {
@@ -655,6 +652,20 @@ Skills
 .skill {
   padding: 1rem;
   text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .skills-center {
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 2rem;
+  }
+
+  .skills-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 2rem;
+  }
 }
 
 /*

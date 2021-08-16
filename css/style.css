@@ -208,6 +208,11 @@ Navbar
   align-items: center;
 }
 
+.nav-header img {
+  width: 50px;
+  height: auto;
+  filter: drop-shadow(2px 4px 6px black);
+}
 .nav-btn {
   background: transparent;
   border-color: transparent;

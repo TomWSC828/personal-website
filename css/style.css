@@ -92,7 +92,7 @@ h4 {
 }
 p {
   margin-bottom: 1.25rem;
-  color: var(--clr-grey-5);
+  color: var(--light-slate);
 }
 @media screen and (min-width: 800px) {
   h1 {
@@ -117,7 +117,6 @@ p {
     line-height: 1;
   }
 }
-/*  global classes */
 
 .btn {
   color: var(--green);
@@ -137,10 +136,10 @@ p {
 }
 .btn:hover {
   background-color: var(--green-tint);
-  outline: none;
+  border: 1px solid transparent;
   color: var(--white);
 }
-/* section */
+
 .section {
   padding: 5rem 0;
 }
@@ -154,20 +153,6 @@ p {
   .section-center {
     width: 95vw;
   }
-}
-
-.underline {
-  width: 5rem;
-  height: 0.1rem;
-  margin-bottom: 1.25rem;
-  background: var(--white);
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.section-title {
-  margin-bottom: 4rem;
-  text-align: center;
 }
 
 /*
@@ -277,7 +262,7 @@ Sidebar
   left: 0;
   width: 100%;
   height: 100%;
-  background: var(--clr-grey-10);
+  background: var(--light-navy);
   z-index: 4;
   display: grid;
   align-items: center;
@@ -298,14 +283,14 @@ Sidebar
   font-size: 2rem;
   text-transform: capitalize;
   transition: var(--transition);
-  color: var(--clr-grey-5);
+  color: var(--white);
   letter-spacing: var(--spacing);
   display: inline-block;
   margin-bottom: 1.5rem;
 }
 
 .sidebar-links a:hover {
-  color: var(--clr-primary-5);
+  color: var(--green);
 }
 
 .social-icons {
@@ -334,12 +319,12 @@ Sidebar
   background: transparent;
   border: transparent;
   transition: var(--transition);
-  color: #bb2525;
+  color: var(--white);
   cursor: pointer;
 }
 
 .close-btn:hover {
-  color: #e66b6b;
+  color: var(--green);
 }
 
 @media screen and (min-width: 350px) {
@@ -353,21 +338,13 @@ Sidebar
 Hero 
 ================
 */
-.section-title h1 {
-  margin-left: 0;
-}
-
-.hero .underline {
-  margin-bottom: 0.5rem;
-  margin-left: 0;
+.section-title {
+  text-align: left;
+  margin-bottom: 2rem;
 }
 
 .hero-img {
   display: none;
-}
-
-.hero {
-  background: var(--clr-primary-10);
 }
 
 .hero-center {
@@ -378,6 +355,10 @@ Hero
 
 .hero-info h4 {
   color: var(--clr-grey-5);
+}
+
+.hero-text {
+  max-width: 40rem;
 }
 
 .hero-icons {
@@ -425,7 +406,7 @@ About
 ================
 */
 .about-title {
-  text-align: left;
+  text-align: center;
   margin-bottom: 2rem;
 }
 
@@ -440,6 +421,10 @@ About
 
 .about-img {
   justify-self: center;
+}
+
+.about-title {
+  text-align: center;
 }
 
 @media screen and (min-width: 992px) {
@@ -527,6 +512,11 @@ Projects
   transform: scale(0.8);
 }
 
+.projects-title {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
 @media screen and (min-width: 676px) {
   .projects-center {
     display: grid;
@@ -551,80 +541,23 @@ Contact
   position: relative;
   padding: 10rem 0 5rem 0;
   margin: 5rem 0;
-}
-
-.video-container {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  z-index: -2;
-}
-
-.connect::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: var(--clr-white);
-  opacity: 0.7;
-  z-index: -1;
-}
-
-.connect {
   display: grid;
   place-items: center;
   text-align: center;
 }
 
-.video-banner .section-title {
+.connect .section-title {
   margin-bottom: 2rem;
 }
 
-.video-text {
+.contact-text {
   max-width: 30rem;
 }
 
-.video-banner {
-  background: var(--clr-primary-10);
-  padding: 3rem 5rem 12rem 5rem;
+.contact-title {
+  margin-bottom: 3rem;
   text-align: center;
-  -webkit-clip-path: polygon(
-    0% 0%,
-    100% 0%,
-    100% 75%,
-    75% 75%,
-    75% 100%,
-    50% 75%,
-    0% 75%
-  );
-  clip-path: polygon(
-    0% 0%,
-    100% 0%,
-    100% 75%,
-    75% 75%,
-    75% 100%,
-    50% 75%,
-    0% 75%
-  );
 }
-
-.connect {
-  -webkit-clip-path: polygon(
-    50% 0%,
-    100% 10%,
-    100% 90%,
-    50% 100%,
-    0 90%,
-    0 10%
-  );
-  clip-path: polygon(50% 0%, 100% 10%, 100% 90%, 50% 100%, 0 90%, 0 10%);
-}
-
 /*
 ================
 Skills  
@@ -711,17 +644,16 @@ Single Page
 ===============
 */
 .single-page {
-  background-color: var(--clr-primary-10);
   min-height: calc(100vh - 5rem - 198px);
 }
+
 .page-info {
   max-width: 700px;
-  background: var(--clr-primary-10);
+  text-align: center;
 }
 
 .page-info a {
   text-transform: uppercase;
-  color: var(--clr-primary-5);
   -webkit-transition: var(--transition);
   transition: var(--transition);
 }

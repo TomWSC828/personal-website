@@ -16,18 +16,16 @@
 
   <p align="center">
     <br />
-    <a href="https://github.com/alxtr42/personal-website"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/aleksandar-trifunovic/personal-website"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://www.alxtr42.com/">Visit Website</a>
+    <a href="https://aleksandar-trifunovic.rs/">Visit Website</a>
     ·
-    <a href="https://github.com/alxtr42/personal-website/issues">Report Bug</a>
+    <a href="https://github.com/aleksandar-trifunovic/personal-website/issues">Report Bug</a>
     ·
-    <a href="https://github.com/alxtr42/personal-website/issues">Request Feature</a>
+    <a href="https://github.com/aleksandar-trifunovic/personal-website/issues">Request Feature</a>
   </p>
 </p>
-
-
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
@@ -55,23 +53,22 @@
   </ol>
 </details>
 
-
-
 <!-- ABOUT THE PROJECT -->
+
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://www.alxtr42.com/)
+[![Product Name Screen Shot][product-screenshot]](https://aleksandar-trifunovic.rs/)
 
-This repository contains a source code for my personal website. You can visit my website to get more information about my work and experience. I'm open to suggestions in improving my website design and functionality so please feel free to report a bug or request a feature. 
+This repository contains a source code for my personal website. You can visit my website to get more information about my work and experience. I'm open to suggestions in improving my website design and functionality so please feel free to report a bug or request a feature.
 
 ### Built With
 
-* [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
-* [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
-* [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
 <!-- GETTING STARTED -->
+
 ## Getting Started
 
 How to get started - TBD
@@ -85,16 +82,19 @@ Prerequsites - TBD
 Installation - TBD
 
 <!-- USAGE EXAMPLES -->
+
 ## Usage
 
 Project Usage - TBD
 
 <!-- ROADMAP -->
+
 ## Roadmap
 
 See the [open issues](https://github.com/alxtr42/personal-website/issues) for a list of proposed features (and known issues).
 
 <!-- CONTRIBUTING -->
+
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
@@ -106,34 +106,40 @@ Contributions are what make the open source community such an amazing place to b
 5. Open a Pull Request
 
 <!-- LICENSE -->
+
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
 <!-- CONTACT -->
+
 ## Contact
 
-[Email Me](mailto:aleksandar@alxtr42.com)
-[Linkedin](https://www.linkedin.com/in/alxtr42/)
-[Website](https://www.alxtr42.com/)
+[Email Me](mailto:alex@aleksandar-trifunovic.rs)
+[Linkedin](https://www.linkedin.com/in/aleksandar-trifunovic-rs/)
+[Website](https://www.aleksandar-trifunovic.rs/)
 
 <!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
-* [Othneil Drew](https://github.com/othneildrew)
 
+## Acknowledgements
+
+- [Brittany Chiang](https://github.com/bchiang7)
+- [John Smilga](https://github.com/john-smilga)
+- [Othneil Drew](https://github.com/othneildrew)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/alxtr42/personal-website.svg?style=for-the-badge
-[contributors-url]: https://github.com/alxtr42/personal-website/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/alxtr42/personal-website.svg?style=for-the-badge
-[forks-url]: https://github.com/alxtr42/personal-website/network/members
-[stars-shield]: https://img.shields.io/github/stars/alxtr42/personal-website.svg?style=for-the-badge
-[stars-url]: https://github.com/alxtr42/personal-website/stargazers
-[issues-shield]: https://img.shields.io/github/issues/alxtr42/personal-website.svg?style=for-the-badge
-[issues-url]: https://github.com/alxtr42/personal-website/issues
-[license-shield]: https://img.shields.io/github/license/alxtr42/personal-website.svg?style=for-the-badge
-[license-url]: https://github.com/alxtr42/personal-website/blob/master/LICENSE
+
+[contributors-shield]: https://img.shields.io/github/contributors/aleksandar-trifunovic/personal-website.svg?style=for-the-badge
+[contributors-url]: https://github.com/aleksandar-trifunovic/personal-website/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/aleksandar-trifunovic/personal-website.svg?style=for-the-badge
+[forks-url]: https://github.com/aleksandar-trifunovic/personal-website/network/members
+[stars-shield]: https://img.shields.io/github/stars/aleksandar-trifunovic/personal-website.svg?style=for-the-badge
+[stars-url]: https://github.com/aleksandar-trifunovic/personal-website/stargazers
+[issues-shield]: https://img.shields.io/github/issues/aleksandar-trifunovic/personal-website.svg?style=for-the-badge
+[issues-url]: https://github.com/aleksandar-trifunovic/personal-website/issues
+[license-shield]: https://img.shields.io/github/license/aleksandar-trifunovic/personal-website.svg?style=for-the-badge
+[license-url]: https://github.com/aleksandar-trifunovic/personal-website/blob/master/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/alxtr42
-[product-screenshot]: docs/screenshot.png
+[linkedin-url]: https://www.linkedin.com/in/aleksandar-trifunovic-rs/
+[product-screenshot]: docs/project-overview.gif

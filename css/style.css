@@ -2,10 +2,10 @@
 =============== 
 Fonts
 ===============
-
+*/
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@357&display=swap');
 
-
+/*
 =============== 
 Variables
 ===============
@@ -26,7 +26,7 @@ Variables
   --green: #64ffda;
   --green-tint: rgba(100,255,218,0.1);
   /* Other Schema */
-  --font-sans: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
+  --font-sans: "SF Mono","Fira Code","Fira Mono","Roboto Mono",-apple-system,system-ui,sans-serif;
   --font-mono: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
   --fz-heading: 32px;
   --easing: cubic-bezier(0.645,0.045,0.355,1);
